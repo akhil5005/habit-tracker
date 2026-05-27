@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add New Habit</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <h1 class="logo">Habit Tracker</h1>
+        <nav class="navbar">
+            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link" href="habits.html">Habits</a>
+            <a class="nav-link" href="add-habit.html">Add Habit</a>
+            <a class="nav-link" href="streak.html">Streak</a>
+        </nav>
+    </header>
+
+    <main class="main">
+        <h2 class="page-title">Create a New Habit</h2>
+
+        <form id="habit-form" class="form">
+            <label class="form-label" for="habit-name">Habit Name</label>
+            <input class="form-input" type="text" id="habit-name" placeholder="E.g., Read 10 Pages" required>
+
+            <label class="form-label" for="habit-category">Category</label>
+            <select class="form-input" id="habit-category" required>
+                <option value="">Select Category</option>
+                <option value="health">Health</option>
+                <option value="study">Study</option>
+                <option value="fitness">Fitness</option>
+                <option value="personal">Personal</option>
+            </select>
+
+            <label class="form-label" for="habit-description">Description</label>
+            <textarea class="form-textarea" id="habit-description" placeholder="Optional notes..." rows="4"></textarea>
+
+            <button class="btn" type="submit">Add Habit</button>
+        </form>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

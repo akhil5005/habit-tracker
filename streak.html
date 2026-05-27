@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Streak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="header">
+    <h1 class="logo">Habit Tracker</h1>
+    <nav class="navbar">
+        <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="habits.html">Habits</a>
+        <a class="nav-link" href="add-habit.html">Add Habit</a>
+        <a class="nav-link" href="streak.html">Streak</a>
+    </nav>
+</header>
+
+<main class="main">
+
+    <h2 class="page-title">Track Your Progress</h2>
+
+    <select id="habit-selector" class="form-input" style="margin-bottom: 20px;">
+        </select>
+
+   
+    <section class="streak-container">
+        <div class="streak-box">
+            <h3 class="section-title">Current Streak</h3>
+            <p class="streak-value">🔥 0 days</p>
+
+            <h3 class="section-title">Longest Streak</h3>
+            <p class="streak-value">🏆 0 days</p>
+        </div>
+    </section>
+
+    
+    <section class="calendar-container">
+        <h3 class="section-title">Streak Calendar</h3>
+        
+        <div class="calendar-nav">
+            <button id="prev-month-btn" class="btn nav-btn"> &lt; Previous </button>
+            <h4 class="month-label"></h4>
+            <button id="next-month-btn" class="btn nav-btn"> Next &gt; </button>
+        </div>
+
+        <div id="calendar-grid" class="calendar-grid">
+           
+            <div class="weekday">Sun</div>
+            <div class="weekday">Mon</div>
+            <div class="weekday">Tue</div>
+            <div class="weekday">Wed</div>
+            <div class="weekday">Thu</div>
+            <div class="weekday">Fri</div>
+            <div class="weekday">Sat</div>
+
+           </div>
+    </section>
+
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
