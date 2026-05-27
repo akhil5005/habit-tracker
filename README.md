@@ -19,8 +19,5 @@ A simple frontend Habit Tracker web application built using HTML, CSS, and JavaS
 - Habits Page
 - Streak Page
 
-## Live Demo
-(Add after deployment)
-
 ## Author
 Akhil Mittal
