@@ -32,7 +32,7 @@ A simple frontend Habit Tracker web application built using HTML, CSS, and JavaS
 - Streak Page
   <img width="1907" height="899" alt="image" src="https://github.com/user-attachments/assets/cb3aa014-5433-48d5-b90e-2efcdac2181c" />
 
-  ## Deployment Link
+## Deployment Link
   https://tracker-live-habit.netlify.app/
 
 ## Author
